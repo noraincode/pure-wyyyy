@@ -10,3 +10,18 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+input[type=checkbox]{
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  margin: 17px auto;
+  border: solid 1px #ccc;
+  background-color: #fff;
+  outline: none;
+  transition: .3s;
+}
